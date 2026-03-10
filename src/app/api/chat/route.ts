@@ -31,7 +31,7 @@ ${JSON.stringify(profileData, null, 2)}
 `;
 
     const response = await ai.models.generateContent({
-      model: 'gemini-1.5-pro',
+      model: 'gemini-2.5-flash',
       contents: latestMessage,
       config: {
         systemInstruction,
@@ -41,6 +41,6 @@ ${JSON.stringify(profileData, null, 2)}
     return NextResponse.json({ role: 'assistant', content: response.text });
   } catch (error: any) {
     console.error('Gemini API Error:', error);
-    return NextResponse.json({ error: "Une erreur est survenue lors de la communication avec l'IA." }, { status: 500 });
+    return NextResponse.json({ error: `Erreur technique: ${error.message || error}` }, { status: 500 });
   }
 }
