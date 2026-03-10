@@ -15,7 +15,7 @@ export default function ChatInterface() {
         {
             id: 'welcome',
             role: 'assistant',
-            content: 'Hello ! Je suis le double numérique de Mael Jerome, Ingénieur Fullstack Senior. Demandez-moi ce que vous voulez savoir sur ses expériences ou ses projets.'
+            content: 'Hello ! Je suis le double numérique de Mael Jerome, Ingénieur Fullstack. Demandez-moi ce que vous voulez savoir sur ses expériences ou ses projets.'
         }
     ]);
     const [input, setInput] = useState('');
@@ -90,8 +90,8 @@ export default function ChatInterface() {
                                     {m.role === 'user' ? <User className="w-5 h-5 text-zinc-300" /> : <Bot className="w-5 h-5 text-white" />}
                                 </div>
                                 <div className={`px-5 py-4 rounded-2xl text-[15px] leading-relaxed shadow-sm ${m.role === 'user'
-                                        ? 'bg-zinc-100 text-zinc-900 rounded-tr-sm font-medium'
-                                        : 'bg-zinc-800/80 text-zinc-100 border border-zinc-700/50 flex flex-col items-start rounded-tl-sm backdrop-blur-sm'
+                                    ? 'bg-zinc-100 text-zinc-900 rounded-tr-sm font-medium'
+                                    : 'bg-zinc-800/80 text-zinc-100 border border-zinc-700/50 flex flex-col items-start rounded-tl-sm backdrop-blur-sm'
                                     }`}>
                                     <div className="whitespace-pre-wrap">{m.content}</div>
                                 </div>

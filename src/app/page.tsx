@@ -22,7 +22,7 @@ export default function Home() {
             Mael Jerome
           </h1>
           <p className="text-zinc-400 text-lg md:text-xl font-medium tracking-wide max-w-lg mx-auto">
-            Senior Fullstack Engineer. Engage with an interactive version of my portfolio.
+            Fullstack Engineer. Engage with an interactive version of my portfolio.
           </p>
         </div>
 
