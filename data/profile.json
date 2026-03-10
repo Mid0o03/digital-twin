@@ -1,0 +1,85 @@
+{
+  "linkedin": [
+    {
+      "section": "Experience",
+      "items": [
+        {
+          "role": "Développeur Web Freelance / Fondateur",
+          "company": "midodev",
+          "dates": "sept. 2025 - aujourd’hui",
+          "description": "Conception et développement de 4 hubs éducatifs pour étudiants en sciences. Développement de Parklydex : App mobile pour parcs d'attractions (Data temps réel). Stack: HTML, CSS, JS, React."
+        },
+        {
+          "role": "Équipier polyvalent",
+          "company": "Bao, Le Marché du Soleil",
+          "dates": "juin 2025 - nov. 2025",
+          "location": "Seine-Saint-Denis, France"
+        },
+        {
+          "role": "Vendeur",
+          "company": "Merci Jérôme",
+          "dates": "déc. 2024 - déc. 2024",
+          "location": "Paris, France"
+        }
+      ]
+    },
+    {
+      "section": "Education",
+      "items": [
+        {
+          "school": "HETIC",
+          "degree": "Bachelor of Web Development",
+          "dates": "2025 - 2028"
+        },
+        {
+          "school": "ISI Language School",
+          "degree": "Diplôme de japonais",
+          "dates": "2023 - 2024"
+        }
+      ]
+    },
+    {
+      "section": "Skills",
+      "items": [
+        "TypeScript",
+        "React",
+        "Next.js",
+        "Tailwind CSS",
+        "Node.js",
+        "SQL",
+        "Prompt Engineering",
+        "IA générative",
+        "UI/UX Design",
+        "Git",
+        "Firebase",
+        "Python",
+        "Figma",
+        "HTML/CSS",
+        "Anglais",
+        "Japonais"
+      ]
+    }
+  ],
+  "github": [
+    {
+      "name": "Parklydex",
+      "description": "Your Ultimate Theme Park Companion!",
+      "language": "TypeScript"
+    },
+    {
+      "name": "NextJS-Interactive-Physics-Web-App",
+      "description": "An interactive physics simulation built with Next.js, Framer Motion, and Lucide React.",
+      "language": "TypeScript"
+    },
+    {
+      "name": "HETIC-Science-Hubs",
+      "description": "HETIC Science Hubs - Collaborative Learning Platforms",
+      "language": "CSS"
+    },
+    {
+      "name": "Japanese-Language-learning-App",
+      "description": "A Japanese learning app built with React, Framer Motion, and Tailwind CSS.",
+      "language": "JavaScript"
+    }
+  ]
+}
